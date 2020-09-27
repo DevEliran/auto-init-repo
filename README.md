@@ -11,4 +11,4 @@ Clone this repo and pip instal the requirements.
 
 In your terminal, `python init_repo.py test <github API token> /Projects --readme`
 
-To get a github API token,simply follow the steps specified [here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)
+To get a github API token, simply follow the steps specified [here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)
