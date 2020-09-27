@@ -5,7 +5,7 @@ This can be useful for whenever you are starting to work on a new project.
 
 # Install
 
-Clone this repo and pip instal the requirements specificed.
+Clone this repo and pip instal the requirements.
 
 ## Example
 
