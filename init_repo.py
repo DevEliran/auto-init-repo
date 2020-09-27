@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     if args['--readme'] and args['--load_readme'] != 'None' or \
          not args['--readme'] and args['--load_readme'] == 'None':
-        raise CreateOrLoadReadme([args['--readme'], args['--load_readme']], 'You can either load or create new readme - use exception')
+        raise CreateOrLoadReadme([args['--readme'], args['--load_readme']], 'You can either load or create new readme.')
 
     create_project(args['<project_name>'], args['<token>'], args['<base_dir>'],
                     args['--readme'], args['--load_readme'])
