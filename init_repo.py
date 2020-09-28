@@ -51,7 +51,7 @@ def create_project(name, token, base_dir, readme, load_readme):
     		print(' '.join(['Unable to copy',load_readme, 'check if path exists']))
         
 
-    subprocess.call(['sh', './automate_git.sh', name, user.login])
+    subprocess.call(['sh', './automate_git.sh', project_path, user.login, name])
 
 
 
